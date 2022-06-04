@@ -34,9 +34,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require('./controllers/'));
 
-app.use('./controllers/dashboard-routes.js');
-app.use('./controllers/home-routes.js');
-
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`Now listening @ http://localhost:${PORT}`));
 });
