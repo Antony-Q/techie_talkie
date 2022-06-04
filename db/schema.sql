@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS Techie-Talkie_db;
+DROP DATABASE IF EXISTS techie_talkie_db;
 
-CREATE DATABASE Techie-Talkie_db;
+CREATE DATABASE techie_talkie_db;
